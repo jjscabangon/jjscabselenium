@@ -17,9 +17,8 @@ public class LoginSteps extends BaseClass {
 
     //Note that the step text from Feature file should exactly match the annotation text
 
-    @Given("^End User logs in$")
-    public static void stepEndUserLogsInAs(DataTable loginCredentials) throws Throwable {
-        initializeBrowser();
+    @Given("^User logs in$")
+    public static void stepEndUserLogsInAs(DataTable loginCredentials) {
         login(loginCredentials);
     }
 

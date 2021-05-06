@@ -25,7 +25,7 @@ public class LoginPage extends BasePage {
 
     //Verify if Post-login Page is displayed
         public static boolean isPostLoginPageDisplayed() {
-            if(isElementDisplayed(lnkHeaderAccount) && isElementDisplayed(lnkHeaderSignout)){
+            if(isElementDisplayed(lnkHeaderAccount) && isElementDisplayed(lnkHeaderSignOut)){
                 System.out.println("PASSED: isPostLoginPageDisplayed()");
                 return true;
             }
