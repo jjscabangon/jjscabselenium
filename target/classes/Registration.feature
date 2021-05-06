@@ -10,3 +10,4 @@ Feature: Registration
       | City         | Test City    |
       | Zip          | 00000        |
       | Mobile Phone | 12345678901  |
+    Then Post-login page is displayed
