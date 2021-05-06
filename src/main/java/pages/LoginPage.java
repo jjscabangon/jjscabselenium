@@ -15,7 +15,7 @@ public class LoginPage extends BasePage {
             //Convert DataTable into Array
                 List<List<String>> loginRawData = loginCredentials.raw();
                 ArrayList<String> loginDataList = new ArrayList<>();
-                    loginDataList.add(loginRawData.get(0).get(1)); //Username
+                    loginDataList.add(loginRawData.get(0).get(1)); //Email Address
                     loginDataList.add(loginRawData.get(1).get(1)); //Password
             //Input credentials and Login
                 inputText(txtLoginEmail,loginDataList.get(0));

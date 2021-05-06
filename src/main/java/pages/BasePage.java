@@ -18,4 +18,17 @@ public class BasePage extends BaseClass {
     //Post-Login Identifiers
         public static By lnkHeaderAccount = By.cssSelector("a.account");
         public static By lnkHeaderSignout = By.cssSelector("a.logout");
+
+    //Registration
+        public static By txtRegEmail = By.cssSelector("input#email_create");
+        public static By btnRegCreateAccount = By.cssSelector("button#SubmitCreate");
+        public static By txtRegFirstName = By.cssSelector("input#customer_firstname");
+        public static By txtRegLastName = By.cssSelector("input#customer_lastname");
+        public static By txtRegPassword = By.cssSelector("input#passwd");
+        public static By txtRegAddress= By.cssSelector("input#address1");
+        public static By txtRegCity = By.cssSelector("input#city");
+        public static By ddRegState = By.cssSelector("select#id_state");
+        public static By txtRegZip = By.cssSelector("input#postcode");
+        public static By txtRegMobilePhone = By.cssSelector("input#phone_mobile");
+        public static By btnRegSubmitAccount = By.cssSelector("button#submitAccount");
 }
